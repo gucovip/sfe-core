@@ -1,15 +1,12 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="test:war exploded">
-    <output-path>$PROJECT_DIR$/test/target/test</output-path>
+  <artifact type="exploded-war" name="sfe-core:war exploded">
+    <output-path>$PROJECT_DIR$/sfe-core/target/sfe-core</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="test" />
+          <element id="module-output" name="sfe-core" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="sfe-core-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="sfe-core" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.7.RELEASE" />
@@ -27,9 +24,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/test/target/test/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/sfe-core/target/sfe-core/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="test/web/Web" />
+      <element id="javaee-facet-resources" facet="sfe-core/web/Web" />
     </root>
   </artifact>
 </component>
